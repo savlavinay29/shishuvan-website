@@ -1,0 +1,211 @@
+html, body
+{
+    padding: 0%;
+    margin: 0% auto;
+}
+
+body
+{
+    background-color: lightgray
+}
+
+#navbar
+{
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    font-size: larger;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar li
+{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+#navbar  li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar  li a:hover:not(.active)
+{
+    background-color: #111;
+}
+
+#navbar  li a.active
+{
+    color: black;
+    background-color: deepskyblue   ;
+}
+
+.spaceFiller
+{
+    height: 50px;
+}
+
+.cardsWrapper
+{
+    margin: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+}
+
+.card
+{
+    margin: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    background-color: white;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container
+{
+    padding: 2px 16px;
+}
+
+#headPhoto
+{
+    padding: 1%;
+}
+
+#headPhoto img
+{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.sectionWrapper
+{
+    padding: 1%;
+    margin: 5%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#features
+{
+    background-color: white;
+}
+
+.featureWrapper
+{
+    margin: 3%;
+    border: 1px solid #BFBFBF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+}
+
+.featureImg
+{
+    margin: 3%;
+    background-color: white;
+    width: 50%;
+}
+
+.featureImg img
+{
+    width: 100%;
+}
+
+.featureText
+{
+    margin: 3%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.featureText div
+{
+    width: 100%;
+}
+
+.featureText h1
+{
+    color: grey;
+    vertical-align: middle;
+    font-size: xx-large;
+}
+
+.featureText span
+{
+    font-size: larger;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#design img
+{
+    width: 100%;
+}
+
+#specifications h1
+{
+    color: grey;
+    text-align: center;
+}
+
+#specifications table
+{
+    width: 100%;
+}
+
+.specificationField
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 50%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.specificationValue
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 50%;
+    font-size: large;
+}
+
+#aboutUs table
+{
+    width: 100%;
+}
+
+#aboutUs h3
+{
+    background:White;
+    text-align:center;
+}
